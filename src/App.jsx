@@ -1,12 +1,15 @@
+import { Outlet } from "react-router-dom"
+import Nav from "./Components/Nav"
 
 
 function App() {
   
 
   return (
-    <div>
-<h1 className="bg-red-500 mt-5">hi</h1>
-    </div>
+    <>
+    <Nav></Nav>
+    <Outlet></Outlet>
+  </>
   )
 }
 
