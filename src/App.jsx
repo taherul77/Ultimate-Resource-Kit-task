@@ -6,8 +6,12 @@ function App() {
   return (
     <>
       
-      <Nav></Nav>
+     <div className="flex">
+    <div className="sm:hidden md:block">
+    <Nav></Nav>
+    </div>
       <Outlet></Outlet>
+     </div>
     </>
   );
 }
