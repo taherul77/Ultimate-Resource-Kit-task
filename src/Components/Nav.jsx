@@ -58,7 +58,7 @@ const Nav = () => {
           </Box>
           <Box sx={{ backgroundColor: "white", height: 64, width: 64 }}>
             <ArticleIcon
-              color="primary"
+              color="disabled"
               font:Bolt
               sx={{ fontSize: 44 }}
             ></ArticleIcon>
