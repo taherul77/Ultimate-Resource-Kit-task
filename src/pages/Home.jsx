@@ -7,6 +7,7 @@ const Home = () => {
       <div className="col-span-12 lg:col-span-3">
         <About></About>
       </div>
+      
     
     </div>
   );
