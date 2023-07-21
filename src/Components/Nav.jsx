@@ -37,7 +37,7 @@ const Nav = () => {
           </Box>
           <Box sx={{ backgroundColor: "white", height: 64, width: 64 }}>
             <SearchIcon
-              color="primary"
+              color="disabled"
               font:Bolt
               sx={{ fontSize: 40, marginLeft: 1 }}
             ></SearchIcon>
